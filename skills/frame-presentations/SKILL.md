@@ -58,6 +58,7 @@ Treat the [guidebook](../../design/frame-guidebook.md) as the single visual refe
 - Default to **Inter** for English text, pending user confirmation of alternative type. PT Mono or IBM Plex Mono may be used sparingly for labels.
 - Use 16:9 slides, a coherent grid, generous whitespace and meaningful hierarchy.
 - Favor light slides for dense content; a dark slide can omit the logo when no approved inverse asset exists.
+- For simple concept icons, use **Lucide as the first choice**, following [MAK iconography](../../design/iconography.md) and the curated SVGs in [assets/icons/lucide](../../assets/icons/lucide/). **Do not force Lucide:** custom icons, native technical shapes, and domain-specific diagrams are preferable when more accurate. Keep icon stroke, proportions, color contrast, and roles consistent; icons may reinforce labels but must not replace essential explanations.
 - Use Canva pattern families selectively, never as mandatory decoration.
 - For Persian/mixed Persian-English slides, verify RTL/LTR order and choose a suitable tested font rather than pretending Inter covers every script.
 - Avoid treating résumé mockups as authoritative academic facts.

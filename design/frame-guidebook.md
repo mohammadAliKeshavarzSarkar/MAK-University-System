@@ -105,6 +105,10 @@ The Canva Asset Library proposes four pattern families:
 
 It also proposes slash motifs, corner marks, editorial rules and registration marks. These are **optional tools**. The source recommends one strong visual gesture at a time, typography-first hierarchy and red as signal rather than ornament. Never use a pattern just to fill empty space.
 
+### Iconography — adopted visual resource
+
+Lucide is the **default general-purpose icon library** for FRAME and other MAK University workflows. Follow the shared [MAK iconography policy](iconography.md). Prefer one coherent 24×24 outline family, adapting size and Ink/Signal color to the slide. **Custom-drawn icons and complete diagrams remain allowed** whenever a stock icon is semantically inadequate, especially for AI/math/architecture. Do not misrepresent a complex algorithm with a generic icon, overdecorate slides, or alter the approved MAK logo. The curated SVG files live in [`assets/icons/lucide/`](../assets/icons/lucide/) and retain their upstream license.
+
 ## 6. Technical communication and factual discipline
 
 - Establish narrative and slide outline before decoration.
