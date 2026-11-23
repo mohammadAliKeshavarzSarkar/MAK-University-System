@@ -1,9 +1,10 @@
 # FRAME — Presentation Design Guidebook
 
-**Version:** 0.2 — Portfolio identity integration  
+**Version:** 0.3 candidate — Lessons from two presentation pilots  
 **Date:** 2026-11-23  
-**Status:** Working draft; brand foundations grounded in Canva source designs and uploaded logo assets  
-**Studio:** FRAME — Presentation Architecture | Design & Production
+**Status:** Review draft on a GitHub pull-request branch; not yet approved in main  
+**Studio:** FRAME — Presentation Architecture | Design & Production  
+**Evidence:** v0.2 brand sources plus rendered RAG Pilot 01 (8 slides) and Classification Metrics Pilot 02 (11 slides).
 
 ## 1. Purpose
 
@@ -73,13 +74,23 @@ The brand guide's type sizes are designed for mixed media. For *projected 16:9 p
 
 These are testing ranges, not rules to compress content. Persian and mixed-language font fallbacks need separate selection.
 
+**Pilot-based projection guidance — proposed for v0.3:**
+
+- Target **18–24 pt** for main explanatory text and **30–40 pt** for slide titles. Split slides before reducing central explanations below 16 pt unless the assignment truly requires denser material.
+- Key displayed math should be comfortable at a distance, ideally **26 pt or larger** where possible, with aligned fraction parts and variable definitions.
+- Chart legends and category labels should generally be **14–16 pt or larger**; reserve a 12 pt floor for genuinely secondary tick labels.
+- Source metadata can sometimes be smaller than the main body, but information essential to understanding must not hide in tiny footers. Prefer a dedicated references slide or speaker notes.
+- Pilot 01 used 8.5 pt footers and some 14–15 pt body text. These are **not approved classroom defaults**. Pilot 02's smallest measured type was 11.8 pt, primarily peripheral text; core mathematical and chart explanations were larger.
+
+These targets require visual testing at actual classroom scale, not merely a file-level font inspection.
+
 ## 4. Presentation-specific system [provisional]
 
 - **Canvas:** widescreen 16:9 landscape; export both editable `.pptx` and PDF when requested.
 - **Grid:** consistent margins and alignment; a flexible 12-column layout is available as a reference, not compulsory for every slide.
 - **Hierarchy:** one primary message per slide; titles communicate a conclusion or question whenever useful.
 - **Spacing:** prefer repeatable 8-based increments, adapted to slide dimensions.
-- **Backgrounds:** Paper/light preferred for teaching, dense data, diagrams and readable research content; dark section or opening slides only when an approved inverse logo is available and text contrast is preserved.
+- **Backgrounds:** Paper/light preferred for teaching, dense data, diagrams and readable research content; dark section or opening slides may use legible light text **without a logo**; if a logo appears, use only an approved inverse artwork. Never force a dark logo onto a dark background.
 - **Brand placement:** full horizontal logo generally on cover/closing slides; compact monogram sparingly elsewhere. Never let logo compete with content.
 - **Accent:** Signal red for emphasis, selected diagram elements and attention markers; not default red paragraphs or a background for every slide.
 
@@ -106,7 +117,29 @@ It also proposes slash motifs, corner marks, editorial rules and registration ma
 - For code and mathematical slides, prioritize legibility over exhaustive detail.
 - Provide notes when the live spoken explanation needs additional technical nuance.
 
-## 7. Accessibility and QA
+## 7. Editable mathematics, diagrams and charts — proposed rules
+
+### Equations and worked numerical examples
+
+- Use **editable PowerPoint text and shapes** for formulas when this preserves correctness; align independently editable numerators, denominators, operators, and fraction bars.
+- Define all variables and the positive class before calculating classification metrics.
+- Recalculate derived results from displayed counts; check totals, percentages, and rounding.
+- Label synthetic counts and illustrative scenarios as such. Never imply that they came from a trained model or empirical study.
+
+### Native charts
+
+- Prefer **native editable PowerPoint charts** when data should be adjustable after delivery. Check that series values and embedded chart data remain accessible.
+- Name all chart axes, categories, units, source context and series. Use values or direct annotations when the audience needs exact comparisons.
+- For precision/recall and threshold plots, maintain numerical coherence across operating points, and never present interpolated invented points as an empirical performance curve.
+- The brand's Ink and Signal colors can help identify simple series, but add labels, markers, or other non-color signals. The wider accessible chart palette remains open.
+
+### Software, AI and system architecture
+
+- Make component roles, interface boundaries, directional flow, and relationships explicit.
+- Prefer native editable shapes and connectors. Inspect short arrows and label spacing at full-slide scale.
+- Do not draw unsupported dependencies or causal claims simply to create a pleasing diagram.
+
+## 8. Accessibility and QA
 
 - Text contrast must be suitable for the role and projected environment.
 - Red Signal on Paper is too low-contrast for ordinary small text; prefer dark Ink for body copy.
@@ -115,11 +148,11 @@ It also proposes slash motifs, corner marks, editorial rules and registration ma
 - Check English/Persian directionality if applicable.
 - Before delivery verify text overflow, image cropping, slide consistency, font substitutions, chart scales, factual sources and exported PDF rendering.
 
-## 8. Portfolio alignment and source caution
+## 9. Portfolio alignment and source caution
 
 The linked resume Canva draft contains some placeholder language and a university branch label that conflicts with the uploaded academic profile. Treat it as a **visual reference only** until facts have been individually verified. FRAME's self-introduction and project descriptions must follow the latest confirmed academic/professional profile, never copy unverified résumé draft claims.
 
-## 9. Decision register
+## 10. Decision register
 
 | Topic | Status | Next test or decision |
 |---|---|---|
@@ -130,10 +163,38 @@ The linked resume Canva draft contains some placeholder language and a universit
 | 16:9 | Adopted | Standard for most decks |
 | 12-column / 8-based structure | Provisional | Test on first technical presentation |
 | Signature Slash, Grid, Arc, Monogram Field | Optional | Use only when informative |
-| Dark presentation mode | Open | Requires inverse logo and contrast review |
+| Dark presentation mode | Optional; inverse logo open | Dark slides may omit logo; approved inverse artwork still required for on-slide logo use |
 | Persian typography | Open | Choose tested compatible font and mixed-language layout rules |
 | Secondary chart palette | Open | Choose after realistic diagrams/charts are tested |
 
-## 10. Iteration rule
+## 11. Evidence from two sample decks
 
-Use the first real academic/technical deck as a pilot. Capture what worked, what harmed clarity, and any deliberate deviations. Only then advance the guidebook to version 0.3. Preserve original Canva concepts and supplied logo files without modification.
+| Pilot | Inspected outputs | Main lesson | Proposed action |
+|---|---|---|---|
+| RAG Pilot 01 | 8 slides; editable architecture diagram; rendered PDF; synthetic example; notes | Consistent MAK identity, but 8.5 pt footer and some 14–15 pt content are weak projection defaults | Raise font targets and verify arrows, references and diagram labels |
+| Classification Metrics Pilot 02 | 11 slides; 2 native editable charts; editable fraction-style formulas; notes; 11-page PDF | Quantitative layouts became clearer with room for equations and chart labels; minimum font 11.8 pt | Preserve numerical, editability and rendering checks |
+
+**Verified pilot structure:** Both source PowerPoint files were inspected: 8 and 11 slides respectively, with 0 and 2 native PowerPoint chart objects. Neither deck has native shapes outside the slide canvas. Both are teaching pilots, not records of real experiments.
+
+**Pilot 02's clearly labeled synthetic case:** 1,000 cases, with 950 negatives and 50 positives. A screening-model example has TN=912, FP=38, FN=14, TP=36, yielding accuracy 94.8%, precision ≈48.6%, recall 72.0%, and F1 ≈58.1%. Three illustrative operating thresholds lower from 0.70 to 0.50 to 0.30; their associated true-positive and false-positive counts should be checked for monotonicity.
+
+**Cross-pilot findings:** The minimal editorial direction transfers well to AI and statistics. Editable diagrams and equations are feasible, but charts need extra space, and mathematical examples need a repeatable calculation review. An unapproved inverse logo is not required for dark recap slides.
+
+## 12. Pre-delivery checks — proposed standard
+
+- [ ] Course requirements, intended audience, language and time limit are reflected in the deck.
+- [ ] Every slide advances one clear teaching point; source claims are traceable.
+- [ ] Equations, sample totals, percentages, chart values and rounding independently recalculated.
+- [ ] Connectors, labels and equation parts checked at full-slide projection scale.
+- [ ] Editable chart objects and their embedded data verified when editability is promised.
+- [ ] Font size, contrast, labels, RTL/LTR layout and color-independent distinctions checked.
+- [ ] No clipped content, out-of-bounds shapes, accidental font substitutions or distorted images.
+- [ ] Exported PDF or slide-preview rendering visually inspected; page count consistent.
+- [ ] Notes, reference context and requested delivery files complete and usable.
+- [ ] No private or unauthorized files copied into this public repository.
+
+## 13. Approval and iteration rule
+
+This is a **v0.3 candidate proposed via draft pull request**, not an automatically approved replacement of the current main-branch guidebook. Review the two pilots and the changes before merging. Preserve original Canva references and supplied logo assets unchanged.
+
+**Still open:** primary logo lock-up and inverse variants, minor differences between color tokens and embedded logo pixels, whether Inter remains the final typography, Persian typography, and a broader accessible chart palette. Future changes should be motivated by specific observed problems and tested on real material.
