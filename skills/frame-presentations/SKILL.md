@@ -60,6 +60,7 @@ Treat the [guidebook](../../design/frame-guidebook.md) as the single visual refe
 - Favor light slides for dense content; a dark slide can omit the logo when no approved inverse asset exists.
 - Use Canva pattern families selectively, never as mandatory decoration.
 - For Persian/mixed Persian-English slides, verify RTL/LTR order and choose a suitable tested font rather than pretending Inter covers every script.
+- When a Persian sentence is split across multiple **token boxes or timeline nodes**, verify the physical reading order is right-to-left; setting each text box to RTL is not enough. Number the positions explicitly when useful.
 - Avoid treating résumé mockups as authoritative academic facts.
 
 **Projection-first targets, subject to real context:** title 30–40 pt; key body 18–24 pt; display mathematics around 26 pt or larger where practical; chart legends/categories 14–16 pt or larger; small secondary ticks generally at least 12 pt. Split content before shrinking the central explanation. Footers of 8–9 pt from Pilot 01 are not reusable classroom defaults.
@@ -86,6 +87,7 @@ Treat the [guidebook](../../design/frame-guidebook.md) as the single visual refe
 - Inspect arrowheads and labels at projected size; very short connectors may become unreadable.
 - Keep code accurate and concise; prefer stepwise explanation over small full-screen code dumps.
 - Check that illustrated causal relationships and system behaviors are supported by the actual material.
+- **Check diagram edges for semantic type correctness.** Intermediate scores, normalized attention weights, value vectors, and final outputs are different quantities. In multi-head attention, arrows to the final concatenation must originate from the individual head **outputs**, not merely their attention-weight charts.
 
 **Source attribution**
 - Cite claims, charts and images appropriately; provide a reference slide or notes when needed.
@@ -100,7 +102,7 @@ Do not declare the deck complete solely because the PowerPoint file was saved.
 1. Check slide count, overall structure and available speaker notes.
 2. Programmatically inspect slide bounds and layout overflow where possible.
 3. Render to a slide preview or PDF; visually inspect representative *and* dense slides at full-page scale.
-4. Check font substitutions, cropped text/images, contrast, chart labels, connectors, equation alignment, and RTL/LTR behavior.
+4. Check font substitutions, cropped text/images, contrast, chart labels, connectors, equation alignment, and RTL/LTR behavior. In bilingual token diagrams verify the left/right *object order*, not only the direction of the text inside each object.
 5. Verify the final requested files can open. If charts are meant to be editable, confirm they are real PowerPoint charts, not just screenshots.
 6. Provide an editable PPTX by default for a deck request. Deliver a PDF additionally **when requested**; don't infer every request needs PDF.
 7. Disclose any verification step you could not perform. Do not claim classroom projection or font installation was tested without doing so.
