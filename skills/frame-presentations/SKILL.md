@@ -5,7 +5,7 @@ description: Plan, build, revise, and quality-check university presentation deck
 
 # FRAME — Presentation Architecture | Design & Production
 
-**Workflow version:** 0.2 — review candidate (2026-11-23)  
+**Workflow version:** 0.2 — pilot-informed working standard (2026-11-23)  
 **Scope:** University and technical presentations, including samples and existing-deck reviews.
 
 This is a **repository workflow instruction**, not an automatically installed ChatGPT skill. An agent must load it and the referenced standards; it must not claim this file governs conversations where it has not been consulted.
