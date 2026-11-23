@@ -1,1 +1,46 @@
-# MAK-University-System
+# MAK University System
+
+A version-controlled collection of **academic quality standards, reusable AI-assisted workflows, design guidance, and carefully selected examples**.
+
+This is an academic production system, **not a storage location for every course file**. The repository supports studying, research, programming, assignments, and presentations while keeping course-specific and private material in its appropriate location.
+
+## What is here now
+
+| Location | Purpose |
+| --- | --- |
+| [AGENTS.md](AGENTS.md) | Entry point for AI/coding agents; navigation and behavioral guardrails |
+| [standards/academic-quality.md](standards/academic-quality.md) | Universal academic and deliverable-quality checks |
+| [standards/source-integrity.md](standards/source-integrity.md) | Evidence, citations, and responsible use of source materials |
+| [skills/frame-presentations/SKILL.md](skills/frame-presentations/SKILL.md) | FRAME university presentation workflow |
+| [design/frame-guidebook.md](design/frame-guidebook.md) | FRAME visual design guidebook, working draft v0.2 |
+
+Other workflows (studying, research, programming, assignments) will be added **when real tasks justify them**, not as empty categories.
+
+## Guiding principles
+
+- Accuracy and understanding before visual polish.
+- Clear structure before decoration.
+- Deliverables should be practical, editable, accessible, and appropriate to their audience.
+- Distinguish **mandatory standards**, **working defaults**, **optional design choices**, and **open decisions**.
+- Don't invent citations, research results, credentials, project outcomes, or measurements.
+- Keep the system lightweight and improve it through real examples.
+
+## Using this repository with AI tools
+
+1. Read [AGENTS.md](AGENTS.md).
+2. Apply the two shared documents in [standards/](standards/).
+3. For presentations, read the [FRAME workflow](skills/frame-presentations/SKILL.md) and [guidebook](design/frame-guidebook.md).
+4. Check task-specific university requirements and user instructions. They take priority over generic defaults.
+5. Record proposed improvements after a real deliverable; don't silently change the brand rules.
+
+**Important:** A repository does not automatically inject its instructions into every ChatGPT conversation. A connected tool or agent must explicitly retrieve the current files or have them provided in its context. An AGENTS.md file is a convention used by some coding agents, not a universal enforcement mechanism.
+
+## Boundaries and privacy
+
+This repository is **public**. Do not add unpublished research data, credentials, API keys, private university records, confidential work, personal contact data, or third-party course materials without appropriate rights. Keep original brand artwork and reference assets intact; only publish logo/vector files once their approved versions are selected.
+
+## Current state
+
+**Foundation v0.1 (proposed)**. The repository documents one mature workflow first: FRAME — Presentation Architecture, Design & Production. Its visual guidebook is a **working draft**, not proof that every design decision has been finalized.
+
+This is a living system. Changes should be reviewed for clarity, consistency, and actual usefulness.
