@@ -12,7 +12,7 @@ This is an academic production system, **not a storage location for every course
 | [standards/academic-quality.md](standards/academic-quality.md) | Universal academic and deliverable-quality checks |
 | [standards/source-integrity.md](standards/source-integrity.md) | Evidence, citations, and responsible use of source materials |
 | [skills/frame-presentations/SKILL.md](skills/frame-presentations/SKILL.md) | FRAME university presentation workflow |
-| [design/frame-guidebook.md](design/frame-guidebook.md) | FRAME visual design guidebook, working draft v0.2 |
+| [design/frame-guidebook.md](design/frame-guidebook.md) | FRAME visual design guidebook v0.3 (pilot-informed, living document) |
 
 Other workflows (studying, research, programming, assignments) will be added **when real tasks justify them**, not as empty categories.
 
@@ -41,6 +41,6 @@ This repository is **public**. Do not add unpublished research data, credentials
 
 ## Current state
 
-**Foundation v0.1 (proposed)**. The repository documents one mature workflow first: FRAME — Presentation Architecture, Design & Production. Its visual guidebook is a **working draft**, not proof that every design decision has been finalized.
+**Foundation in use.** The first implemented workflow is FRAME — Presentation Architecture, Design & Production (skill v0.2; guidebook v0.3). Both remain evolving standards, and the guidebook explicitly tracks unresolved brand decisions.
 
 This is a living system. Changes should be reviewed for clarity, consistency, and actual usefulness.
