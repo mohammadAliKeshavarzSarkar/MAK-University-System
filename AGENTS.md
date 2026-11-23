@@ -15,6 +15,11 @@ For any university-related task using this repository:
 ## Design learning workflows
 
 If the goal is to **learn or test** grid composition, typography, hierarchy, slide rhythm, or motion, use [skills/design-learning/SKILL.md](skills/design-learning/SKILL.md) and the relevant topic module. Check its [seven-source catalog](skills/design-learning/SOURCES.md). Preserve the distinction between the original source context and FRAME's own experiments. These modules do not override confirmed brand standards and do not automatically authorize producing a full deck.
+## Data visualization learning and production
+
+For scientific charts, evaluation curves, exploratory plots, or web visualizations, load [skills/data-visualization/SKILL.md](skills/data-visualization/SKILL.md) and its [five-source catalog](skills/data-visualization/SOURCES.md) as needed. Verify dataset origin, calculations, scales, labels and source attribution **before** styling. Treat interactive HTML, a static SVG/PNG, and a native editable PowerPoint chart as different deliverables. Do not treat synthetic values as empirical results.
+
+
 ## Behavior
 
 - Clarify the purpose, intended audience, available sources, required deliverable and time/length constraints, using provided information before asking questions.
