@@ -25,6 +25,11 @@ Use when the user asks to learn, continue a design lesson, compare visual altern
    - [Motion and choreography](../design-motion/SKILL.md)
 4. For applied work, load the [FRAME guidebook](../../design/frame-guidebook.md) and use its confirmed brand choices without silently changing them.
 
+## Data visualization as a parallel learning topic
+
+For charts, plots, data encodings, and scientific communication, load [Data Visualization & Scientific Communication](../data-visualization/SKILL.md) and its own [five-source catalog](../data-visualization/SOURCES.md). These resources complement the visual-design modules but add numerical/data integrity obligations that aesthetics alone cannot satisfy.
+
+
 ## Four-step learning cycle
 
 1. **Study:** Explain a small number of ideas from the actual source; preserve their context (poster, book, UI or presentation).

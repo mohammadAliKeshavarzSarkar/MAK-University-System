@@ -26,6 +26,11 @@ Current user directions and actual university requirements take precedence over 
 When a presentation needs a specific **design experiment or deeper instruction**, load [MAK Design Learning](../design-learning/SKILL.md) and only the relevant topic module: [grid](../design-grid-systems/SKILL.md), [typography](../design-typography/SKILL.md), [hierarchy](../design-visual-hierarchy/SKILL.md), [slide rhythm](../design-slide-rhythm/SKILL.md), or [motion](../design-motion/SKILL.md). Their linked readings inform **learning and testing**; they do not replace the approved guidebook, override academic correctness, or impose mandatory templates. Motion remains optional and must preserve a static explanation.
 
 
+### Optional scientific visualization workflow
+
+For a chart requiring data interpretation, research-grade plotting, or comparison of visualization libraries, load the [Data Visualization & Scientific Communication skill](../data-visualization/SKILL.md). Use its checks for data provenance, axis meaning, uncertainty, color-independent distinction and faithful export. A static SVG from Matplotlib/Altair/Plotly is **not** a native editable PowerPoint chart; choose a real PowerPoint chart when modifying the data in PowerPoint is required. This learning skill is complementary to, not a replacement for, the FRAME source and technical QA standards.
+
+
 ## 2. Choose the production mode
 
 - **Plan / outline:** Return a meaningful narrative, slide list, and source gaps; do not create a deck unless requested.
