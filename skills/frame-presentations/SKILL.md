@@ -55,12 +55,12 @@ Don't force an identical narrative on every assignment. Use speaker notes for us
 Treat the [guidebook](../../design/frame-guidebook.md) as the single visual reference; do not duplicate all its specifications here.
 
 - Use the documented **working content tokens** Paper #F5F3EE, Ink #161616 and Signal #E64B3C. Preserve supplied MAK logo artwork exactly; its image pixels differ slightly from these content tokens.
-- Default to **Inter** for English text, pending user confirmation of alternative type. PT Mono or IBM Plex Mono may be used sparingly for labels.
+- Use the **user-confirmed Inter font** for English/Latin-script titles, headings, body and general labels. PT Mono or IBM Plex Mono remain optional for short technical labels. Verify font availability in the actual production environment; inspect PowerPoint/PDF output for substitutions and layout shifts. Refer to the guidebook for official sources and licensing. Do not attach or redistribute font binaries in the deck delivery.
 - Use 16:9 slides, a coherent grid, generous whitespace and meaningful hierarchy.
 - Favor light slides for dense content; a dark slide can omit the logo when no approved inverse asset exists.
 - For simple concept icons, use **Lucide as the first choice**, following [MAK iconography](../../design/iconography.md) and the curated SVGs in [assets/icons/lucide](../../assets/icons/lucide/). **Do not force Lucide:** custom icons, native technical shapes, and domain-specific diagrams are preferable when more accurate. Keep icon stroke, proportions, color contrast, and roles consistent; icons may reinforce labels but must not replace essential explanations.
 - Use Canva pattern families selectively, never as mandatory decoration.
-- For Persian/mixed Persian-English slides, verify RTL/LTR order and choose a suitable tested font rather than pretending Inter covers every script.
+- For Persian/mixed Persian-English slides, verify RTL/LTR order and choose a tested Persian-capable font alongside Inter; Inter is **not** a substitute for Persian glyph coverage. The specific Persian font remains an open brand decision.
 - When a Persian sentence is split across multiple **token boxes or timeline nodes**, verify the physical reading order is right-to-left; setting each text box to RTL is not enough. Number the positions explicitly when useful.
 - Avoid treating résumé mockups as authoritative academic facts.
 
