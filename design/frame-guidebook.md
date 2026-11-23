@@ -136,6 +136,8 @@ It also proposes slash motifs, corner marks, editorial rules and registration ma
 ### Software, AI and system architecture
 
 - Make component roles, interface boundaries, directional flow, and relationships explicit.
+- Treat connector arrows as claims about what passes between components. Do not draw a weight chart directly feeding a concatenation node when the algorithm concatenates **weighted value outputs**.
+- When drawing sequence tokens in Persian, place their **physical objects in right-to-left order**, and show the reading direction or numbered positions where confusion is possible. Right-aligning text inside individually ordered boxes does not fix reversed sequence flow.
 - Prefer native editable shapes and connectors. Inspect short arrows and label spacing at full-slide scale.
 - Do not draw unsupported dependencies or causal claims simply to create a pleasing diagram.
 
@@ -145,7 +147,7 @@ It also proposes slash motifs, corner marks, editorial rules and registration ma
 - Red Signal on Paper is too low-contrast for ordinary small text; prefer dark Ink for body copy.
 - Do not encode meaning by color alone; add labels, markers, patterns or legend.
 - Use sensible slide density; split complex material across slides rather than reducing font size severely.
-- Check English/Persian directionality if applicable.
+- Check English/Persian directionality if applicable. Separately verify ordered token boxes, mixed Latin/Persian vectors and formulas in the actual rendered slide; avoid assuming that underlying string order equals visual reading order.
 - Before delivery verify text overflow, image cropping, slide consistency, font substitutions, chart scales, factual sources and exported PDF rendering.
 
 ## 9. Portfolio alignment and source caution
@@ -179,6 +181,12 @@ The linked resume Canva draft contains some placeholder language and a universit
 **Pilot 02's clearly labeled synthetic case:** 1,000 cases, with 950 negatives and 50 positives. A screening-model example has TN=912, FP=38, FN=14, TP=36, yielding accuracy 94.8%, precision ≈48.6%, recall 72.0%, and F1 ≈58.1%. Three illustrative operating thresholds lower from 0.70 to 0.50 to 0.30; their associated true-positive and false-positive counts should be checked for monotonicity.
 
 **Cross-pilot findings:** The minimal editorial direction transfers well to AI and statistics. Editable diagrams and equations are feasible, but charts need extra space, and mathematical examples need a repeatable calculation review. An unapproved inverse logo is not required for dark recap slides.
+
+### Targeted bilingual diagram evidence (Pilots 03–04)
+
+- **Pilot 03:** Rendering exposed a vector whose values appeared reversed inside an RTL Persian sentence; isolating mathematical expressions into editable LTR text objects corrected the display.
+- **Pilot 04 refinement R1:** A four-token Persian sequence was physically reversed to honor RTL reading order. A multi-head architecture diagram was corrected to show that **head outputs**, rather than the attention-weight bars, feed the concatenation step.
+- These are **technical QA lessons** grounded in the sample, not approval of every Pilot 04 visual choice. The Persian font, inverse logo, and other open identity choices remain provisional.
 
 ## 12. Pre-delivery checks — proposed standard
 
