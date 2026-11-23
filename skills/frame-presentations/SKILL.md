@@ -21,6 +21,11 @@ Read in this order when accessible:
 
 Current user directions and actual university requirements take precedence over repository defaults. If an essential source is unavailable, explain the limitation; never imply it has been reviewed. Distinguish source facts, verified outside research, interpretations, examples, and assumptions.
 
+### Optional learning skill modules
+
+When a presentation needs a specific **design experiment or deeper instruction**, load [MAK Design Learning](../design-learning/SKILL.md) and only the relevant topic module: [grid](../design-grid-systems/SKILL.md), [typography](../design-typography/SKILL.md), [hierarchy](../design-visual-hierarchy/SKILL.md), [slide rhythm](../design-slide-rhythm/SKILL.md), or [motion](../design-motion/SKILL.md). Their linked readings inform **learning and testing**; they do not replace the approved guidebook, override academic correctness, or impose mandatory templates. Motion remains optional and must preserve a static explanation.
+
+
 ## 2. Choose the production mode
 
 - **Plan / outline:** Return a meaningful narrative, slide list, and source gaps; do not create a deck unless requested.
