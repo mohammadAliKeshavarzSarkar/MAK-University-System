@@ -55,14 +55,17 @@ The source guideline offers an **80% Paper / 15% Ink / ≤5% Signal** applicatio
 
 Secondary grays, accessible chart series and approved dark-background colors are **not finalized**.
 
-### 3.3 Fonts [Inter required as guidebook default; alternative choice open]
+### 3.3 Fonts [Inter confirmed for English/Latin; Persian font open]
 
-The personal brand guide specifies:
+**Confirmed by the user on 2026-11-23:** [Inter](https://fonts.google.com/specimen/Inter) is the **official primary English/Latin-script typeface** for FRAME presentation titles, headings, body text and standard diagram/chart labels.
 
-- **Inter**: display, headings and main body.
-- **PT Mono** or **IBM Plex Mono**: technical/editorial labels and indices, as needed.
-
-The separate exploratory Canva board additionally suggests **Neue Haas Grotesk (or Helvetica / Inter)**. That is a competing *exploration*, not proof that the default has been replaced. **FRAME defaults to Inter until user confirms a different final font.**
+- Use **Inter Regular, Medium, SemiBold and Bold** where the hierarchy calls for them; choose weight by semantic importance instead of applying heavy type everywhere.
+- **PT Mono** or **IBM Plex Mono** remain *optional/provisional* choices for technical/editorial labels and indices, not replacements for ordinary body text.
+- The exploratory Canva board suggested **Neue Haas Grotesk or Helvetica** as earlier options. They are **not** the approved primary choice; don't silently substitute them.
+- **Persian typography remains unconfirmed.** Inter does not provide the needed Persian/Arabic glyph coverage. Choose and test a separate Persian-capable companion font and mixed-direction layout before standardizing it.
+- Source: [Google Fonts — Inter](https://fonts.google.com/specimen/Inter); [official Google Fonts Inter source](https://github.com/google/fonts/tree/main/ofl/inter); [SIL Open Font License 1.1](https://github.com/google/fonts/blob/main/ofl/inter/OFL.txt).
+- For deck production, check that Inter is installed and discoverable in the actual presentation/rendering environment. It is installed in the current FRAME working environment, but **that does not mean it is installed on the user's university computer or every future runtime**. Check font substitution and PDF/PPTX rendering before delivery.
+- Font binaries are **not committed** to this public guideline repository. Download an official copy when an environment needs it; retain licensing notices if redistributing fonts. Avoid giving users raw font files as presentation deliverables.
 
 The brand guide's type sizes are designed for mixed media. For *projected 16:9 presentations*, start with:
 
@@ -164,7 +167,7 @@ The linked resume Canva draft contains some placeholder language and a universit
 |---|---|---|
 | Personal geometric MAK logo | Required | Confirm preferred primary lock-up and approved inverse variant |
 | Paper / Ink / Signal brand family | Required | Choose exact tokens: Canva guide vs slightly different uploaded logo pixels |
-| Inter main typography | Provisional accepted default | Confirm whether exploratory Neue Haas alternative supersedes it |
+| Inter English/Latin typography | Confirmed | Verify font installation, weight mapping and rendering on the actual presentation machine |
 | PT Mono or IBM Plex Mono | Provisional | Test as captions/labels, not extended slide body |
 | 16:9 | Adopted | Standard for most decks |
 | 12-column / 8-based structure | Provisional | Test on first technical presentation |
@@ -209,4 +212,4 @@ The linked resume Canva draft contains some placeholder language and a universit
 
 This is a **living, reviewable guidebook**. Improve rules through evidence from actual presentations and review proposed changes through a GitHub pull request before merging. Preserve original Canva references and supplied logo assets unchanged.
 
-**Still open:** primary logo lock-up and inverse variants, minor differences between color tokens and embedded logo pixels, whether Inter remains the final typography, Persian typography, and a broader accessible chart palette. Future changes should be motivated by specific observed problems and tested on real material.
+**Still open:** primary logo lock-up and inverse variants, minor differences between color tokens and embedded logo pixels, the Persian companion typeface and bilingual font pairing, and a broader accessible chart palette. Future changes should be motivated by specific observed problems and tested on real material.
