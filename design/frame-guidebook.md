@@ -1,8 +1,8 @@
 # FRAME — Presentation Design Guidebook
 
-**Version:** 0.3 candidate — Lessons from two presentation pilots  
+**Version:** 0.3 — Lessons from two presentation pilots  
 **Date:** 2026-11-23  
-**Status:** Review draft on a GitHub pull-request branch; not yet approved in main  
+**Status:** Working guidebook; brand decisions are tracked as confirmed, provisional, optional, or open  
 **Studio:** FRAME — Presentation Architecture | Design & Production  
 **Evidence:** v0.2 brand sources plus rendered RAG Pilot 01 (8 slides) and Classification Metrics Pilot 02 (11 slides).
 
@@ -195,6 +195,6 @@ The linked resume Canva draft contains some placeholder language and a universit
 
 ## 13. Approval and iteration rule
 
-This is a **v0.3 candidate proposed via draft pull request**, not an automatically approved replacement of the current main-branch guidebook. Review the two pilots and the changes before merging. Preserve original Canva references and supplied logo assets unchanged.
+This is a **living, reviewable guidebook**. Improve rules through evidence from actual presentations and review proposed changes through a GitHub pull request before merging. Preserve original Canva references and supplied logo assets unchanged.
 
 **Still open:** primary logo lock-up and inverse variants, minor differences between color tokens and embedded logo pixels, whether Inter remains the final typography, Persian typography, and a broader accessible chart palette. Future changes should be motivated by specific observed problems and tested on real material.
