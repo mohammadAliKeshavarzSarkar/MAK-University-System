@@ -12,6 +12,9 @@ For any university-related task using this repository:
 4. Read only the workflow relevant to the task. For presentations use [skills/frame-presentations/SKILL.md](skills/frame-presentations/SKILL.md), then [design/frame-guidebook.md](design/frame-guidebook.md).
 5. Apply explicit current task instructions, course rubrics and provided source materials. Do not assume repository defaults override them.
 
+## Design learning workflows
+
+If the goal is to **learn or test** grid composition, typography, hierarchy, slide rhythm, or motion, use [skills/design-learning/SKILL.md](skills/design-learning/SKILL.md) and the relevant topic module. Check its [seven-source catalog](skills/design-learning/SOURCES.md). Preserve the distinction between the original source context and FRAME's own experiments. These modules do not override confirmed brand standards and do not automatically authorize producing a full deck.
 ## Behavior
 
 - Clarify the purpose, intended audience, available sources, required deliverable and time/length constraints, using provided information before asking questions.

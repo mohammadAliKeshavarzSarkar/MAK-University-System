@@ -12,11 +12,18 @@ This is an academic production system, **not a storage location for every course
 | [standards/academic-quality.md](standards/academic-quality.md) | Universal academic and deliverable-quality checks |
 | [standards/source-integrity.md](standards/source-integrity.md) | Evidence, citations, and responsible use of source materials |
 | [skills/frame-presentations/SKILL.md](skills/frame-presentations/SKILL.md) | FRAME university presentation workflow |
+| [skills/design-learning/SKILL.md](skills/design-learning/SKILL.md) | Learning facilitator and route into five practical design skills |
+| [skills/design-learning/SOURCES.md](skills/design-learning/SOURCES.md) | Seven verified design references, limits, and experiment evidence |
+| [skills/design-grid-systems/SKILL.md](skills/design-grid-systems/SKILL.md) | Swiss grids, margins, columns, modular layouts |
+| [skills/design-typography/SKILL.md](skills/design-typography/SKILL.md) | Type scale, leading, column width, bilingual readability |
+| [skills/design-visual-hierarchy/SKILL.md](skills/design-visual-hierarchy/SKILL.md) | Emphasis, contrast, alignment, whitespace and semantic accuracy |
+| [skills/design-slide-rhythm/SKILL.md](skills/design-slide-rhythm/SKILL.md) | Intentional visual pacing across a sequence of slides |
+| [skills/design-motion/SKILL.md](skills/design-motion/SKILL.md) | Purposeful reveals, continuity, accessibility and motion QA |
 | [design/iconography.md](design/iconography.md) | University-wide Lucide-first iconography, with custom technical icons allowed |
 | [assets/icons/lucide/](assets/icons/lucide/) | Small SVG starter collection with upstream license notice |
 | [design/frame-guidebook.md](design/frame-guidebook.md) | FRAME visual design guidebook v0.3 (pilot-informed, living document) |
 
-Other workflows (studying, research, programming, assignments) will be added **when real tasks justify them**, not as empty categories.
+The five design learning modules above were developed from real FRAME study sessions. They teach transferable visual skills and are **not mandatory slide templates**. Other unrelated workflows (research, programming, assignments) will be added **when real tasks justify them**, not as empty categories.
 
 ## Guiding principles
 
@@ -31,7 +38,7 @@ Other workflows (studying, research, programming, assignments) will be added **w
 
 1. Read [AGENTS.md](AGENTS.md).
 2. Apply the two shared documents in [standards/](standards/).
-3. For presentations, read the [FRAME workflow](skills/frame-presentations/SKILL.md) and [guidebook](design/frame-guidebook.md).
+3. For presentations, read the [FRAME workflow](skills/frame-presentations/SKILL.md) and [guidebook](design/frame-guidebook.md). For learning/design experiments, start with the [design-learning skill](skills/design-learning/SKILL.md), then load **only the relevant module**.
 4. Check task-specific university requirements and user instructions. They take priority over generic defaults.
 5. Record proposed improvements after a real deliverable; don't silently change the brand rules.
 
