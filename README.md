@@ -12,6 +12,8 @@ This is an academic production system, **not a storage location for every course
 | [standards/academic-quality.md](standards/academic-quality.md) | Universal academic and deliverable-quality checks |
 | [standards/source-integrity.md](standards/source-integrity.md) | Evidence, citations, and responsible use of source materials |
 | [skills/frame-presentations/SKILL.md](skills/frame-presentations/SKILL.md) | FRAME university presentation workflow |
+| [design/iconography.md](design/iconography.md) | University-wide Lucide-first iconography, with custom technical icons allowed |
+| [assets/icons/lucide/](assets/icons/lucide/) | Small SVG starter collection with upstream license notice |
 | [design/frame-guidebook.md](design/frame-guidebook.md) | FRAME visual design guidebook v0.3 (pilot-informed, living document) |
 
 Other workflows (studying, research, programming, assignments) will be added **when real tasks justify them**, not as empty categories.
