@@ -27,7 +27,7 @@ Use when the user asks to learn, continue a design lesson, compare visual altern
 
 ## Data visualization as a parallel learning topic
 
-For charts, plots, data encodings, and scientific communication, load [Data Visualization & Scientific Communication](../data-visualization/SKILL.md) and its own [five-source catalog](../data-visualization/SOURCES.md). These resources complement the visual-design modules but add numerical/data integrity obligations that aesthetics alone cannot satisfy.
+For charts, plots, data encodings, and scientific communication, load [Data Visualization & Scientific Communication](../data-visualization/SKILL.md) and its own [five-source catalog](../data-visualization/SOURCES.md). These resources complement the visual-design modules but add numerical/data integrity obligations that aesthetics alone cannot satisfy. For the completed 12-lesson sequence and the next learning session, use the [Data Visualization Learning Lab](../data-visualization-learning/SKILL.md).
 
 
 ## Four-step learning cycle
