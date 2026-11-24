@@ -20,6 +20,10 @@ If the goal is to **learn or test** grid composition, typography, hierarchy, sli
 For scientific charts, evaluation curves, exploratory plots, or web visualizations, load [skills/data-visualization/SKILL.md](skills/data-visualization/SKILL.md) and its [five-source catalog](skills/data-visualization/SOURCES.md) as needed. Verify dataset origin, calculations, scales, labels and source attribution **before** styling. Treat interactive HTML, a static SVG/PNG, and a native editable PowerPoint chart as different deliverables. Do not treat synthetic values as empirical results. For teaching, revisiting, or continuing the twelve FRAME DataViz studies, use the [Data Visualization Learning Lab](skills/data-visualization-learning/SKILL.md), its [learning path](skills/data-visualization-learning/LEARNING-PATH.md), and [source evidence register](skills/data-visualization-learning/EVIDENCE.md). The current completed sequence ends at Study 12; Study 13 is only a proposal.
 
 
+## Visual assets and image production
+
+For presentation image research, art direction, generated/edited illustrations, documentary imagery, cropping, embedding or rights review, load [FRAME / IMAGE](skills/visual-assets/SKILL.md). Use its [production QA](skills/visual-assets/PRODUCTION-QA.md) for actual asset records and PPTX file checks. Use the [learning path](skills/visual-assets/LEARNING-PATH.md) for guided study. Do not treat generated visuals as authentic evidence or claim untested native Office compatibility. Load the scientific visualization skill for quantitative figures and keep labels/editable technical components native when required.
+
 ## Behavior
 
 - Clarify the purpose, intended audience, available sources, required deliverable and time/length constraints, using provided information before asking questions.

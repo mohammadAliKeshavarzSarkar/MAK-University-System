@@ -31,6 +31,10 @@ When a presentation needs a specific **design experiment or deeper instruction**
 For a chart requiring data interpretation, research-grade plotting, or comparison of visualization libraries, load the [Data Visualization & Scientific Communication skill](../data-visualization/SKILL.md). Use its checks for data provenance, axis meaning, uncertainty, color-independent distinction and faithful export. A static SVG from Matplotlib/Altair/Plotly is **not** a native editable PowerPoint chart; choose a real PowerPoint chart when modifying the data in PowerPoint is required. This learning skill is complementary to, not a replacement for, the FRAME source and technical QA standards.
 
 
+### Visual assets workflow
+
+When imagery is needed, load [FRAME / IMAGE — Visual Asset Architecture](../visual-assets/SKILL.md). Define the image's function and slide placement before sourcing or generating; prefer authentic evidence, precise technical diagrams, and clearly labeled conceptual illustrations according to their role. Preserve originals, meaningful colors, aspect ratios, attribution and editable text. Use its [production QA](../visual-assets/PRODUCTION-QA.md) to verify actual embedded assets and SVG raster fallbacks, and disclose untested compatibility and rights. No mandatory image quota or new brand tokens are introduced.
+
 ## 2. Choose the production mode
 
 - **Plan / outline:** Return a meaningful narrative, slide list, and source gaps; do not create a deck unless requested.
@@ -100,6 +104,10 @@ Treat the [guidebook](../../design/frame-guidebook.md) as the single visual refe
 - Check that illustrated causal relationships and system behaviors are supported by the actual material.
 - **Check diagram edges for semantic type correctness.** Intermediate scores, normalized attention weights, value vectors, and final outputs are different quantities. In multi-head attention, arrows to the final concatenation must originate from the individual head **outputs**, not merely their attention-weight charts.
 
+**Images and illustrations**
+- Apply the visual-assets skill when the storyboard requires an image. Keep captions and labels editable; use authentic material for evidence and generated imagery only for an appropriately disclosed illustrative role.
+- Verify actual embedded bytes, crop/scale, transparency, format and fallback integrity; record the asset provenance, modifications and distribution rights. If an original cannot be retrieved or cleared, omit it or use an explicitly labeled suitable alternative.
+
 **Source attribution**
 - Cite claims, charts and images appropriately; provide a reference slide or notes when needed.
 - Never invent bibliography entries, model performance, experimental results, authorship, or professional credentials.
@@ -114,7 +122,7 @@ Do not declare the deck complete solely because the PowerPoint file was saved.
 2. Programmatically inspect slide bounds and layout overflow where possible.
 3. Render to a slide preview or PDF; visually inspect representative *and* dense slides at full-page scale.
 4. Check font substitutions, cropped text/images, contrast, chart labels, connectors, equation alignment, and RTL/LTR behavior. In bilingual token diagrams verify the left/right *object order*, not only the direction of the text inside each object.
-5. Verify the final requested files can open. If charts are meant to be editable, confirm they are real PowerPoint charts, not just screenshots.
+5. Verify the final requested files can open. For decks with images, apply the [visual-assets QA gate](../visual-assets/PRODUCTION-QA.md) to the actual package and rendered output. If charts are meant to be editable, confirm they are real PowerPoint charts, not just screenshots.
 6. Provide an editable PPTX by default for a deck request. Deliver a PDF additionally **when requested**; don't infer every request needs PDF.
 7. Disclose any verification step you could not perform. Do not claim classroom projection or font installation was tested without doing so.
 
