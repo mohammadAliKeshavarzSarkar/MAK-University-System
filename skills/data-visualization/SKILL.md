@@ -51,6 +51,10 @@ A repository skill must be deliberately loaded by an agent; storing it on GitHub
 - Check that small chart labels stay readable at projected size and on the final exported PDF or PPTX.
 - Mark source and version of reused material, including copyright/license where relevant.
 
+## Guided lessons completed through Study 12
+
+If the user is **learning, revisiting, or continuing** the prior hands-on DataViz course, load the [Data Visualization Learning Lab](../data-visualization-learning/SKILL.md) and its [12-lesson map](../data-visualization-learning/LEARNING-PATH.md) instead of creating a duplicate production skill. The [evidence register](../data-visualization-learning/EVIDENCE.md) points to original sources; reopen them before making exact claims. Study 13 is proposed, not yet completed.
+
 ## A practical lesson
 
 Run [Example 01 — Synthetic Learning Curves](examples/README.md). The same twelve rows are visualized in Matplotlib and Plotly; the Altair code path is included for an environment with its optional package. Training and validation losses are **invented exercise numbers**, not model results. The example has a validation minimum at epoch 7 of 0.49 illustrative units.

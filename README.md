@@ -21,6 +21,9 @@ This is an academic production system, **not a storage location for every course
 | [skills/design-motion/SKILL.md](skills/design-motion/SKILL.md) | Purposeful reveals, continuity, accessibility and motion QA |
 | [skills/data-visualization/SKILL.md](skills/data-visualization/SKILL.md) | Scientific chart selection, numerical integrity, visualization coding and presentation export |
 | [skills/data-visualization/SOURCES.md](skills/data-visualization/SOURCES.md) | Five verified visualization libraries, capabilities and export limitations |
+| [skills/data-visualization-learning/SKILL.md](skills/data-visualization-learning/SKILL.md) | Learning facilitator for the 12 completed FRAME DataViz studies |
+| [skills/data-visualization-learning/LEARNING-PATH.md](skills/data-visualization-learning/LEARNING-PATH.md) | Lesson-by-lesson learning objectives, exercises and scientific caveats |
+| [skills/data-visualization-learning/EVIDENCE.md](skills/data-visualization-learning/EVIDENCE.md) | Original archive provenance and reproducibility boundaries |
 | [design/iconography.md](design/iconography.md) | University-wide Lucide-first iconography, with custom technical icons allowed |
 | [assets/icons/lucide/](assets/icons/lucide/) | Small SVG starter collection with upstream license notice |
 | [design/frame-guidebook.md](design/frame-guidebook.md) | FRAME visual design guidebook v0.3 (pilot-informed, living document) |
@@ -40,7 +43,7 @@ The five design learning modules above were developed from real FRAME study sess
 
 1. Read [AGENTS.md](AGENTS.md).
 2. Apply the two shared documents in [standards/](standards/).
-3. For presentations, read the [FRAME workflow](skills/frame-presentations/SKILL.md) and [guidebook](design/frame-guidebook.md). For learning/design experiments, start with the [design-learning skill](skills/design-learning/SKILL.md), then load **only the relevant module**. For charts and research figures, load the [Data Visualization skill](skills/data-visualization/SKILL.md).
+3. For presentations, read the [FRAME workflow](skills/frame-presentations/SKILL.md) and [guidebook](design/frame-guidebook.md). For learning/design experiments, start with the [design-learning skill](skills/design-learning/SKILL.md), then load **only the relevant module**. For charts and research figures, load the [Data Visualization production skill](skills/data-visualization/SKILL.md). To study or continue the completed DataViz lessons, start with the [Data Visualization Learning Lab](skills/data-visualization-learning/SKILL.md) and [learning path](skills/data-visualization-learning/LEARNING-PATH.md).
 4. Check task-specific university requirements and user instructions. They take priority over generic defaults.
 5. Record proposed improvements after a real deliverable; don't silently change the brand rules.
 
