@@ -16,6 +16,7 @@ This is a version-controlled knowledge repository, not a software application, c
 | Check academic and scientific quality | [Academic quality](standards/academic-quality.md) · [Source integrity](standards/source-integrity.md) |
 | Plan, design, or review a presentation | [FRAME production workflow](skills/frame-presentations/SKILL.md) · [Design guidebook](design/frame-guidebook.md) |
 | Study visual design | [Design Learning](skills/design-learning/SKILL.md) |
+| Find, create, refine, and embed presentation images | [FRAME / IMAGE](skills/visual-assets/SKILL.md) |
 | Create research figures and charts | [Data Visualization](skills/data-visualization/SKILL.md) |
 | Learn scientific visualization and AI evaluation | [Data Visualization Learning Lab](skills/data-visualization-learning/SKILL.md) |
 
@@ -27,16 +28,19 @@ flowchart TD
     ST["Academic quality & source integrity"]
     FRAME["FRAME — Presentation production"]
     DL["Design Learning"]
+    IMG["FRAME / IMAGE — Visual assets"]
     DV["Data Visualization"]
     LAB["Data Visualization Learning Lab"]
     MAK --> ST
     MAK --> FRAME
     MAK --> DL
+    MAK --> IMG
     MAK --> DV
     MAK --> LAB
     ST -. shared standards .-> FRAME
     ST -. shared standards .-> DV
     DL -. design practice .-> FRAME
+    IMG -. image production .-> FRAME
     DV -. scientific figures .-> FRAME
     LAB -. learning and evaluation .-> DV
 ```
@@ -56,6 +60,10 @@ Read the [production skill](skills/frame-presentations/SKILL.md), [guidebook](de
 ### Visual design
 
 The [Design Learning facilitator](skills/design-learning/SKILL.md) connects five practical modules: [grid systems](skills/design-grid-systems/SKILL.md), [typography](skills/design-typography/SKILL.md), [visual hierarchy](skills/design-visual-hierarchy/SKILL.md), [slide rhythm](skills/design-slide-rhythm/SKILL.md), and [motion](skills/design-motion/SKILL.md). Its [source catalog](skills/design-learning/SOURCES.md) preserves seven original design references and their scope limitations.
+
+### FRAME / IMAGE — Visual assets
+
+The [visual-assets skill](skills/visual-assets/SKILL.md) connects visual research, art direction, AI generation and refinement, technical illustration, licensing, and image embedding. Its [twelve guided lessons](skills/visual-assets/LEARNING-PATH.md) and [two pilot records](skills/visual-assets/PRODUCTION-QA.md) establish a working production workflow while documenting unresolved compatibility and documentary-photography tests. Assets remain separate from the public repository until their rights are reviewed.
 
 ### Data visualization
 
@@ -101,9 +109,9 @@ MAK-University-System/
 
 ## Status and boundaries
 
-The foundation is in use: FRAME production, five design-learning modules, scientific visualization, and twelve documented DataViz studies. The system evolves through actual academic work rather than speculative infrastructure.
+The foundation is in use: FRAME production, five design-learning modules, scientific visualization, twelve documented DataViz studies, and the FRAME / IMAGE visual-assets workflow (twelve guided lessons and two production pilots). The system evolves through actual academic work rather than speculative infrastructure.
 
-Open items include Persian typography, classroom font and animation compatibility, and untested optional visualization export paths. Future workflows are added when real tasks justify them.
+Open items include Persian typography, classroom font and animation compatibility, and untested optional visualization export paths, native Office image compatibility, and authentic external photo embedding. Future workflows are added when real tasks justify them.
 
 This public repository intentionally excludes private course records, unpublished research, credentials, confidential material, original personal logo files pending publication approval, and large teaching archives. Third-party assets retain their applicable license notices. No repository-wide open-source license is asserted here.
 

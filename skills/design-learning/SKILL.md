@@ -30,6 +30,10 @@ Use when the user asks to learn, continue a design lesson, compare visual altern
 For charts, plots, data encodings, and scientific communication, load [Data Visualization & Scientific Communication](../data-visualization/SKILL.md) and its own [five-source catalog](../data-visualization/SOURCES.md). These resources complement the visual-design modules but add numerical/data integrity obligations that aesthetics alone cannot satisfy. For the completed 12-lesson sequence and the next learning session, use the [Data Visualization Learning Lab](../data-visualization-learning/SKILL.md).
 
 
+## Visual assets as a parallel learning topic
+
+For imagery, art direction, cropping, generation/refinement, technical illustration and image QA, use [FRAME / IMAGE](../visual-assets/SKILL.md) and its [twelve-lesson map](../visual-assets/LEARNING-PATH.md). Guided exercises and two production pilots inform this working skill, but do not establish measured educational outcomes or universal platform compatibility.
+
 ## Four-step learning cycle
 
 1. **Study:** Explain a small number of ideas from the actual source; preserve their context (poster, book, UI or presentation).
