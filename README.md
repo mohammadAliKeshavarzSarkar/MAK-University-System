@@ -1,60 +1,112 @@
 # MAK University System
 
-A version-controlled collection of **academic quality standards, reusable AI-assisted workflows, design guidance, and carefully selected examples**.
+**A personal academic knowledge and production system.**
 
-This is an academic production system, **not a storage location for every course file**. The repository supports studying, research, programming, assignments, and presentations while keeping course-specific and private material in its appropriate location.
+MAK University System brings together reusable academic workflows, scientific communication practices, design guidance, and AI-assisted learning skills. Its purpose is to make university work more rigorous, coherent, and reproducible while keeping the process lightweight.
 
-## What is here now
+> Accuracy before aesthetics. Structure before decoration. Evidence before claims.
 
-| Location | Purpose |
+This is a version-controlled knowledge repository, not a software application, course archive, or collection of finished assignments.
+
+## Start here
+
+| I want to… | Open |
 | --- | --- |
-| [AGENTS.md](AGENTS.md) | Entry point for AI/coding agents; navigation and behavioral guardrails |
-| [standards/academic-quality.md](standards/academic-quality.md) | Universal academic and deliverable-quality checks |
-| [standards/source-integrity.md](standards/source-integrity.md) | Evidence, citations, and responsible use of source materials |
-| [skills/frame-presentations/SKILL.md](skills/frame-presentations/SKILL.md) | FRAME university presentation workflow |
-| [skills/design-learning/SKILL.md](skills/design-learning/SKILL.md) | Learning facilitator and route into five practical design skills |
-| [skills/design-learning/SOURCES.md](skills/design-learning/SOURCES.md) | Seven verified design references, limits, and experiment evidence |
-| [skills/design-grid-systems/SKILL.md](skills/design-grid-systems/SKILL.md) | Swiss grids, margins, columns, modular layouts |
-| [skills/design-typography/SKILL.md](skills/design-typography/SKILL.md) | Type scale, leading, column width, bilingual readability |
-| [skills/design-visual-hierarchy/SKILL.md](skills/design-visual-hierarchy/SKILL.md) | Emphasis, contrast, alignment, whitespace and semantic accuracy |
-| [skills/design-slide-rhythm/SKILL.md](skills/design-slide-rhythm/SKILL.md) | Intentional visual pacing across a sequence of slides |
-| [skills/design-motion/SKILL.md](skills/design-motion/SKILL.md) | Purposeful reveals, continuity, accessibility and motion QA |
-| [skills/data-visualization/SKILL.md](skills/data-visualization/SKILL.md) | Scientific chart selection, numerical integrity, visualization coding and presentation export |
-| [skills/data-visualization/SOURCES.md](skills/data-visualization/SOURCES.md) | Five verified visualization libraries, capabilities and export limitations |
-| [skills/data-visualization-learning/SKILL.md](skills/data-visualization-learning/SKILL.md) | Learning facilitator for the 12 completed FRAME DataViz studies |
-| [skills/data-visualization-learning/LEARNING-PATH.md](skills/data-visualization-learning/LEARNING-PATH.md) | Lesson-by-lesson learning objectives, exercises and scientific caveats |
-| [skills/data-visualization-learning/EVIDENCE.md](skills/data-visualization-learning/EVIDENCE.md) | Original archive provenance and reproducibility boundaries |
-| [design/iconography.md](design/iconography.md) | University-wide Lucide-first iconography, with custom technical icons allowed |
-| [assets/icons/lucide/](assets/icons/lucide/) | Small SVG starter collection with upstream license notice |
-| [design/frame-guidebook.md](design/frame-guidebook.md) | FRAME visual design guidebook v0.3 (pilot-informed, living document) |
+| Understand how the system works | [Agent guidance](AGENTS.md) |
+| Check academic and scientific quality | [Academic quality](standards/academic-quality.md) · [Source integrity](standards/source-integrity.md) |
+| Plan, design, or review a presentation | [FRAME production workflow](skills/frame-presentations/SKILL.md) · [Design guidebook](design/frame-guidebook.md) |
+| Study visual design | [Design Learning](skills/design-learning/SKILL.md) |
+| Create research figures and charts | [Data Visualization](skills/data-visualization/SKILL.md) |
+| Learn scientific visualization and AI evaluation | [Data Visualization Learning Lab](skills/data-visualization-learning/SKILL.md) |
 
-The five design learning modules above were developed from real FRAME study sessions. They teach transferable visual skills and are **not mandatory slide templates**. Other unrelated workflows (research, programming, assignments) will be added **when real tasks justify them**, not as empty categories.
+## System architecture
 
-## Guiding principles
+```mermaid
+flowchart TD
+    MAK["MAK University System"]
+    ST["Academic quality & source integrity"]
+    FRAME["FRAME — Presentation production"]
+    DL["Design Learning"]
+    DV["Data Visualization"]
+    LAB["Data Visualization Learning Lab"]
+    MAK --> ST
+    MAK --> FRAME
+    MAK --> DL
+    MAK --> DV
+    MAK --> LAB
+    ST -. shared standards .-> FRAME
+    ST -. shared standards .-> DV
+    DL -. design practice .-> FRAME
+    DV -. scientific figures .-> FRAME
+    LAB -. learning and evaluation .-> DV
+```
 
-- Accuracy and understanding before visual polish.
-- Clear structure before decoration.
-- Deliverables should be practical, editable, accessible, and appropriate to their audience.
-- Distinguish **mandatory standards**, **working defaults**, **optional design choices**, and **open decisions**.
-- Don't invent citations, research results, credentials, project outcomes, or measurements.
-- Keep the system lightweight and improve it through real examples.
+Shared academic standards apply across the repository. Learning skills support experimentation and understanding; production skills guide actual deliverables. Neither overrides the requirements of a course, research task, or current user instruction.
 
-## Using this repository with AI tools
+## FRAME — Presentation Architecture | Design & Production
 
-1. Read [AGENTS.md](AGENTS.md).
-2. Apply the two shared documents in [standards/](standards/).
-3. For presentations, read the [FRAME workflow](skills/frame-presentations/SKILL.md) and [guidebook](design/frame-guidebook.md). For learning/design experiments, start with the [design-learning skill](skills/design-learning/SKILL.md), then load **only the relevant module**. For charts and research figures, load the [Data Visualization production skill](skills/data-visualization/SKILL.md). To study or continue the completed DataViz lessons, start with the [Data Visualization Learning Lab](skills/data-visualization-learning/SKILL.md) and [learning path](skills/data-visualization-learning/LEARNING-PATH.md).
-4. Check task-specific university requirements and user instructions. They take priority over generic defaults.
-5. Record proposed improvements after a real deliverable; don't silently change the brand rules.
+FRAME is the implemented presentation workflow for technical, university, research, and professional communication. It combines narrative structure, accurate diagrams, restrained visual identity, editable deliverables, and practical rendering checks.
 
-**Important:** A repository does not automatically inject its instructions into every ChatGPT conversation. A connected tool or agent must explicitly retrieve the current files or have them provided in its context. An AGENTS.md file is a convention used by some coding agents, not a universal enforcement mechanism.
+Its design foundation uses Swiss-inspired grid composition, Inter for Latin-script typography, Lucide-first iconography, and the working MAK color tokens Paper `#F5F3EE`, Ink `#161616`, and Signal `#E64B3C`. Persian companion typography and some brand details remain open for testing.
 
-## Boundaries and privacy
+Read the [production skill](skills/frame-presentations/SKILL.md), [guidebook](design/frame-guidebook.md), and [iconography standard](design/iconography.md). The [Lucide starter assets](assets/icons/lucide/) retain their upstream licensing notice.
 
-This repository is **public**. Do not add unpublished research data, credentials, API keys, private university records, confidential work, personal contact data, or third-party course materials without appropriate rights. Keep original brand artwork and reference assets intact; only publish logo/vector files once their approved versions are selected.
+## Learning and scientific communication
 
-## Current state
+### Visual design
 
-**Foundation in use.** The first implemented workflow is FRAME — Presentation Architecture, Design & Production (skill v0.2; guidebook v0.3). Both remain evolving standards, and the guidebook explicitly tracks unresolved brand decisions.
+The [Design Learning facilitator](skills/design-learning/SKILL.md) connects five practical modules: [grid systems](skills/design-grid-systems/SKILL.md), [typography](skills/design-typography/SKILL.md), [visual hierarchy](skills/design-visual-hierarchy/SKILL.md), [slide rhythm](skills/design-slide-rhythm/SKILL.md), and [motion](skills/design-motion/SKILL.md). Its [source catalog](skills/design-learning/SOURCES.md) preserves seven original design references and their scope limitations.
 
-This is a living system. Changes should be reviewed for clarity, consistency, and actual usefulness.
+### Data visualization
+
+The [production skill](skills/data-visualization/SKILL.md) supports accurate, accessible, reproducible charts. The [tool catalog](skills/data-visualization/SOURCES.md) covers Matplotlib, Vega-Altair, Plotly, Apache ECharts, and Observable Plot. Tools are chosen by purpose rather than treated as mandatory dependencies.
+
+The [reproducible learning-curves example](skills/data-visualization/examples/README.md) provides a small synthetic CSV and Python comparison script. Static figures, interactive HTML, and native PowerPoint charts are distinct deliverables.
+
+### Data Visualization Learning Lab
+
+The [learning skill](skills/data-visualization-learning/SKILL.md) documents twelve completed teaching studies:
+
+| Phase | Studies | Focus |
+| --- | --- | --- |
+| Visualization and statistics | 01–05 | Libraries, chart selection, distributions, uncertainty, paired comparisons, reliable benchmarking |
+| Model evaluation and explanations | 06–09 | Subgroups, metrics, calibration, feature importance, SHAP, explanation stability |
+| Counterfactuals and monitoring | 10–12 | Feasible actions, robustness, uncertainty validation, monitoring |
+
+Explore the [learning path](skills/data-visualization-learning/LEARNING-PATH.md) and [evidence register](skills/data-visualization-learning/EVIDENCE.md). The original lesson archives remain outside this public repository. All constructed exercise results are synthetic; they do not establish real model performance or causal effects.
+
+## Working with AI assistants
+
+Provide the repository link or relevant files to an assistant that can access them, then identify the task and its actual source materials.
+
+1. Read [AGENTS.md](AGENTS.md) and the shared academic standards.
+2. Load only the skill relevant to the task and reopen its sources when needed.
+3. Follow the actual assignment or research requirements.
+4. Check technical correctness, evidence, accessibility, and the exported deliverable.
+5. Document meaningful improvements through small, reviewable changes.
+
+A Markdown skill is reusable workflow guidance. It does not automatically install a ChatGPT capability, load itself into every conversation, or install software dependencies.
+
+## Repository layout
+
+```text
+MAK-University-System/
+├── AGENTS.md          # Agent navigation and working conventions
+├── standards/         # Academic quality and source integrity
+├── skills/            # Production workflows and learning modules
+│   └── data-visualization/examples/
+├── design/            # FRAME guidebook and iconography
+└── assets/icons/      # Curated, licensed SVG starter assets
+```
+
+## Status and boundaries
+
+The foundation is in use: FRAME production, five design-learning modules, scientific visualization, and twelve documented DataViz studies. The system evolves through actual academic work rather than speculative infrastructure.
+
+Open items include Persian typography, classroom font and animation compatibility, and untested optional visualization export paths. Future workflows are added when real tasks justify them.
+
+This public repository intentionally excludes private course records, unpublished research, credentials, confidential material, original personal logo files pending publication approval, and large teaching archives. Third-party assets retain their applicable license notices. No repository-wide open-source license is asserted here.
+
+---
+
+**MAK University System** · A living academic knowledge and production system.
