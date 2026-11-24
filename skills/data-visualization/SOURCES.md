@@ -27,3 +27,7 @@ The example dataset has twelve fixed illustrative epochs; it is **not real train
 ## Scope boundary
 
 These sources are approved **learning/selection references**, not mandatory dependencies. Choose the correct library for each user task and verify the installed version before relying on current behavior. We link documentation instead of copying third-party galleries, copyrighted plots or large package distributions to our public repository.
+
+## Validation follow-up — 2026-11-24
+
+The original Study 01 archive's source script and CSV were extracted into a clean local directory and executed using Matplotlib 3.10.8, Plotly 6.5.2 and pandas 2.2.3. The synthetic validation minimum remained 0.49 at epoch 7. PNG and SVG from Matplotlib and standalone HTML and JSON from Plotly were regenerated. Altair, vl-convert-python and Kaleido were unavailable; a new package installation attempt did not obtain the requested dependencies. Altair execution/static export and Plotly native static export remain open. This run verifies the original local archive's code path, not an independent run of the shorter repository example or a new browser-interactivity test. Continue using Matplotlib for static figures when appropriate; do not assert successful optional exports before execution.

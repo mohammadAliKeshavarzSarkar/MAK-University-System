@@ -80,3 +80,13 @@ Photo candidates recorded in the manifests: [CERN Data Centre.jpg](https://commo
 Authentic external photograph retrieval/embedding; independent multi-scene generated-image consistency; native Office rendering on actual target platform; SVG-to-native-shape conversion and older-viewer fallback behavior; image compression; full accessibility checker and reading order; classroom projection; public distribution rights review; final user approval of permanent styles. Keep these open until tested, not automatically completed by merging a skill.
 
 Both archives are local evidence, not public repository files or claimed public downloads. No binary assets, personal logo, generated art, copyrighted reference images, or fonts need to be committed to adopt this workflow.
+
+## Follow-up test — lossless embedded-media deduplication (2026-11-24)
+
+The existing Pilot 02 PowerPoint was copied and optimized at the OOXML package level. Only byte-identical media parts with matching file extensions were deduplicated using SHA-256. Six relationship targets were rewritten to retained parts, five duplicates were removed, and any associated content-type overrides were removed. No image pixels, resolution, transparency, original SVG bytes, native slide objects or slide XML were intentionally changed; the original PPTX was preserved. The new ZIP passed its integrity test, retained media bytes matched the original exactly, all ten internal image relationships resolved, and zero external image dependencies were found. Retained PNGs decoded successfully. Python-pptx inspection found 10 slides, 187 objects, 10 nonempty notes sections and zero out-of-bounds objects at 100 EMU tolerance. Original and optimized decks were newly rendered via the same LibreOffice workflow: all ten PDF pages rasterized at the same scale had identical dimensions and pixel bytes.
+
+- Original: 6,098,787 bytes; optimized: 3,325,485 bytes (45.473% reduction).
+- Local output: `FRAME_IMAGE_Pilot_02_Lossless_Optimized.pptx`; not a public repository asset.
+- This is lossless package-level optimization of one deck, not PowerPoint's native compression feature or a promised saving for other decks. Native Office compatibility is still untested. Prefer a separate copy and verify references, content types, actual image bytes, structural integrity and render equivalence before accepting a similar transformation. Do not use blind file deletion or deduplication of merely visually similar assets.
+
+The CERN Data Centre and NERSC server racks source pages were reopened; both state CC0 1.0. A further actual NERSC image download attempt failed. External photograph embedding remains open, and no source image has been added. Other unresolved production tests above remain unchanged.
